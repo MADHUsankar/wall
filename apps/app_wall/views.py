@@ -3,7 +3,7 @@
 
 from django.shortcuts import render, redirect
 from django.contrib import messages
-from .models import User, Message, Comment
+from .models import  Message, Comment
 from django.core.urlresolvers import reverse
 
 def wallpage(request):

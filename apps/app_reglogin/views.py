@@ -3,7 +3,7 @@ from __future__ import unicode_literals
 
 from django.shortcuts import render, redirect
 from django.contrib import messages
-from .models import User, Message, Comment
+from .models import User 
 from django.core.urlresolvers import reverse
 
 # Create your views here.
